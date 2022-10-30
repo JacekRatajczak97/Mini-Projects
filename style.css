@@ -1,0 +1,24 @@
+.container {
+  height: 800px;
+  width: 800px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -400px;
+}
+
+.change-color {
+  width: 400px;
+  height: 400px;
+  float: left;
+  border-radius: 50px;
+}
+
+.color-value {
+  margin-top: 180px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
