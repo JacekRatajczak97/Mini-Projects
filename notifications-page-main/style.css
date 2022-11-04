@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(211, 68%, 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  background: #fff;
+  width: 50%;
+  padding: 8rem;
+  border-radius: 20px;
+}
+
+.notification,
+.head-container,
+.enter,
+.entry {
+  display: flex;
+}
+
+.head-container {
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-bottom: 7rem;
+}
+
+.notification-number {
+  margin-left: 1rem;
+  background: hsl(219, 85%, 26%);
+  padding: 0 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.mark-as-read {
+  color: hsl(219, 12%, 42%);
+}
+
+.mark-as-read:hover {
+  cursor: pointer;
+}
+
+.dot {
+  height: 0.4rem;
+  width: 0.4rem;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.dot-hidden {
+  background-color: white;
+}
+
+.time {
+  color: hsl(219, 12%, 42%);
+  margin-top: 10px;
+}
+
+.photo {
+  display: inline-block;
+  float: left;
+  margin-right: 2rem;
+}
+
+.entry {
+  align-items: center;
+  font-size: 1.2rem;
+}
+.enter {
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 1rem 3rem;
+}
+
+.unread {
+  background: hsl(208deg 91% 97%);
+  border-radius: 10px;
+}
