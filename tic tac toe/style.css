@@ -1,0 +1,45 @@
+:root {
+  --ximg: url("x.png");
+  --oimg: url("o.jpeg");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.element {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x {
+  background-image: var(--ximg);
+  background-size: cover;
+}
+
+.o {
+  background-image: var(--oimg);
+  background-size: cover;
+}
+
+.win {
+  font-size: 2rem;
+  justify-content: center;
+  display: none;
+}
+
+.reset-win {
+  font-size: 1rem;
+}
