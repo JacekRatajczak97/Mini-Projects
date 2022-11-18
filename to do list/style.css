@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29335c;
+}
+
+.container {
+  border: 1px orange solid;
+  margin: -1px;
+  width: 51%;
+  margin-top: 7rem;
+}
+
+.menu,
+.popup,
+.note-head {
+  background-color: #f3a712;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+.add-note {
+  background-color: #85e085;
+}
+
+.add-note:hover {
+  background-color: #f0cea0;
+  cursor: pointer;
+}
+
+.remove-note {
+  background-color: #534d41;
+}
+
+.remove-note:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.remove-note,
+.add-note {
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  margin: 0 5rem;
+}
+
+.popup {
+  position: fixed;
+  display: inline-grid;
+  border-radius: 1rem;
+  left: 40%;
+  top: 30%;
+  padding: 1rem;
+}
+.unvisible {
+  display: none;
+}
+
+.input-text {
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.close-popup {
+  text-align: right;
+  color: white;
+  right: 0;
+}
+
+.close-popup:hover {
+  cursor: pointer;
+}
+
+.note-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.note {
+  width: 15rem;
+  margin: 2rem 2rem;
+  border-radius: 2rem;
+}
+
+.note-head,
+.note-body {
+  padding: 1rem 2rem;
+}
+
+.note-head {
+  color: white;
+  font-weight: 700;
+  min-height: 2rem;
+  border-bottom: 2px solid;
+  font-size: 1.2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.note-body {
+  background: white;
+  color: black;
+  font-size: 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.delete {
+  background-color: red;
+}
+
+.submit-button {
+  border-radius: 1rem;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem;
+  margin-top: -1rem;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
+}
